@@ -1,0 +1,387 @@
+/* Estilos globais */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --font-family: 'Arial', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: #f8f9fa; /* Cor de fundo suave para a página */
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+/*Estilo para as seções*/
+#sobre-mim {
+  background-color: #ffffff; /* Branco */
+}
+
+#portfolio {
+  background-color: #f8f9fa; /* Cinza muito claro */
+}
+
+section#avaliacoes {
+  background-color: #f0f8ff !important; /* Força a cor de fundo */
+}
+
+section#contatos {
+  background-color: #fafafa !important; /* Força a cor de fundo */
+}
+
+/* Estilos para o carrossel */
+.carousel-item img {
+  width: 100%;
+  height: 42vw; /* Altura proporcional à largura */
+  object-fit: cover; /* Cobre o espaço sem distorcer */
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 28vh; /* Altura menor para dispositivos móveis */
+  }
+}
+
+/* Estilos para as seções */
+.section-hover {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.section-hover:hover {
+  background-color: #e9ecef;
+  transform: scale(1.02);
+}
+
+.bordered-section {
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Estilos para as imagens */
+.img-hover {
+  width: 100%;
+  height: auto; /* Mantém a proporção */
+  max-height: 200px; /* Limita a altura máxima */
+  transition: transform 0.3s ease;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.img-hover:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .img-hover {
+    max-height: 150px; /* Altura menor para dispositivos móveis */
+  }
+}
+
+/* Estilos para a seção de avaliações */
+#avaliacoes {
+  background-color: #ffffff; /* Fundo branco para a seção */
+  padding: 20px 0;
+}
+
+#avaliacoes .card {
+  border: none; /* Remove a borda do card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: transform 0.3s ease;
+  background-color: transparent; /* Fundo transparente para o card */
+}
+
+#avaliacoes .card:hover {
+  transform: translateY(-5px); /* Efeito de levantar o card ao passar o mouse */
+}
+
+#avaliacoes .card img {
+  max-height: 200px; /* Altura máxima das imagens */
+  width: auto; /* Mantém a proporção */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  display: block; /* Remove espaços em branco abaixo da imagem */
+}
+
+#avaliacoes .card-body {
+  padding: 0; /* Remove o padding interno do card-body */
+  background-color: transparent; /* Fundo transparente */
+}
+
+/* Botão "Ver mais avaliações" */
+#avaliacoes .btn-success {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  background-color: #28a745; /* Cor de fundo do botão */
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+#avaliacoes .btn-success:hover {
+  background-color: #218838; /* Cor de fundo ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+  background-color: #333; /* Cor de fundo escura */
+  color: #fff; /* Cor do texto */
+  text-align: center; /* Centralizado */
+  padding: 20px 0; /* Espaçamento interno */
+  margin-top: 40px; /* Espaçamento acima */
+}
+
+/* Estilos para a seção Sobre Mim */
+#sobre-mim {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* Fundo gradiente */
+  padding: 40px 0;
+}
+
+#sobre-mim h2 {
+  font-family: 'Arial';
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+#sobre-mim .lead {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+/* Estilos para o Accordion */
+#sobreMimAccordion .card {
+  border: none;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+#sobreMimAccordion .card-header {
+  background-color: #454242;
+  border: none;
+}
+
+#sobreMimAccordion .btn-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#sobreMimAccordion .btn-link:hover {
+  color: #f8f9fa;
+}
+
+#sobreMimAccordion .card-body {
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Ícones */
+#sobre-mim .fa-check-circle {
+  font-size: 1.2rem;
+}
+
+
+/* Estilo minimalista para os títulos */
+.section-title {
+  font-family: 'Arial', sans-serif; /* Fonte simples */
+  font-size: 2rem; /* Tamanho médio */
+  font-weight: 600; /* Negrito */
+  color: #333; /* Cor escura e neutra */
+  text-align: center; /* Centralizado */
+  margin-bottom: 30px; /* Espaçamento abaixo */
+  padding-bottom: 10px; /* Espaço para a linha inferior */
+  position: relative; /* Para adicionar a linha decorativa */
+}
+
+/* Linha decorativa fina abaixo do título */
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px; /* Largura da linha */
+  height: 2px; /* Espessura da linha */
+  background: #17a2b8; /* Cor azul clara */
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%); /* Centraliza a linha */
+}
+
+/* Estilo para o corpo do texto */
+.lead {
+  font-size: 1.1rem;
+  color: #555; /* Cor suave para o texto */
+  line-height: 1.8; /* Espaçamento entre linhas */
+  text-align: justify; /* Texto justificado */
+}
+
+/* Estilo para as imagens */
+.img-hover {
+  transition: transform 0.3s ease;
+}
+
+.img-hover:hover {
+  transform: scale(1.05); /* Efeito de zoom suave ao passar o mouse */
+}
+
+.img-bordered {
+  border: 2px solid #ddd; /* Borda sutil */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 5px; /* Espaçamento interno */
+}
+
+/* Estilo para o carrossel */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo para o botão "Ver mais avaliações" */
+.btn-success {
+  background-color: #28a745; /* Cor de fundo */
+  border: none; /* Remove a borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  font-size: 1rem; /* Tamanho da fonte */
+  border-radius: 25px; /* Bordas arredondadas */
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Cor de fundo ao passar o mouse */
+}
+
+
+
+
+/*ESTILO CONTATO*/
+#contatos {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+#contatos h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#contatos p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contatos .row {
+  margin: 0 auto;
+  max-width: 800px; /* Limita a largura da grade */
+}
+
+#contatos .col-md-3 {
+  padding: 10px;
+}
+
+#contatos a {
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+}
+
+#contatos a:hover {
+  color: #005f8b;
+}
+
+#contatos .bi {
+  font-size: 2rem; /* Tamanho dos ícones */
+  margin-bottom: 10px;
+}
+
+#contatos .bi {
+  transition: transform 0.3s ease;
+}
+
+#contatos a:hover .bi {
+  transform: scale(1.2); /* Aumenta o tamanho do ícone */
+}
+
+/*ESTILOS Formulário*/
+#fale-conosco {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+#fale-conosco h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#fale-conosco p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#fale-conosco .form-control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#fale-conosco .btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#fale-conosco .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+/* Estilo para o rodapé */
+footer {
+  background-color: #333; /* Cor de fundo escura */
+  color: #fff; /* Cor do texto */
+  text-align: center; /* Centralizado */
+  padding: 20px 0; /* Espaçamento interno */
+  margin-top: 40px; /* Espaçamento acima */
+}
+
+
+
+
+
+#success-message,
+#error-message {
+  display: none; /* Inicialmente ocultas */
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#success-message {
+  background-color: #d4edda; /* Verde claro */
+  color: #155724; /* Verde escuro */
+  border: 1px solid #c3e6cb;
+}
+
+#error-message {
+  background-color: #f8d7da; /* Vermelho claro */
+  color: #721c24; /* Vermelho escuro */
+  border: 1px solid #f5c6cb;
+}

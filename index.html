@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Link para o arquivo CSS personalizado -->
+  <link rel="stylesheet" href="styles.css">
+  <title>Meu Portfólio</title>
+</head>
+<body>
+
+  <!-- Nav BAR atual -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#portfolio">Meu Portfólio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre-mim">Sobre Mim</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#avaliacoes">Avaliações</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contatos">Contatos</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+<!--Para afastar a navbar dos titulos-->
+<p> </p>
+
+
+  <!-- Seção Portfólio -->
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Portfólio</h2>
+      <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#portfolioCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#portfolioCarousel" data-slide-to="1"></li>
+          <li data-target="#portfolioCarousel" data-slide-to="2"></li>
+          <li data-target="#portfolioCarousel" data-slide-to="3"></li>
+          <li data-target="#portfolioCarousel" data-slide-to="4"></li>
+          <li data-target="#portfolioCarousel" data-slide-to="5"></li>
+          <li data-target="#portfolioCarousel" data-slide-to="6"></li>
+          <li data-target="#portfolioCarousel" data-slide-to="7"></li>
+          <li data-target="#portfolioCarousel" data-slide-to="8"></li>
+          <li data-target="#portfolioCarousel" data-slide-to="9"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 img-fluid fixed-size" src="/img3/port5.jpg" alt="Primeiro slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid fixed-size" src="/img3/port2.jpg" alt="Segundo slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid fixed-size" src="/img3/port4.1.jpeg" alt="Terceiro slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid fixed-size" src="/img3/port01.2.jpg" alt="Quarto slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid fixed-size" src="/img3/port6.jpg" alt="Quinto slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid fixed-size" src="/img3/port8.jpg" alt="Sexto slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid fixed-size" src="/img3/port7.jpg" alt="Sétimo slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid fixed-size" src="/img3/port9.jpg" alt="Oitavo slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><a href="https://shadowtutor.github.io/Alfabetiza-o-Digital/" target="_blank" class="text-white btn btn-danger">Ver Projeto</a></h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid fixed-size" src="/img3/port10.jpg" alt="Nono slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><a href="https://github.com/Shadowtutor/Reciclar-para-Preservar.git" target="_blank" class="text-white btn btn-danger">Ver Projeto</a></h5>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Sobre Mim com Accordion -->
+  <section id="sobre-mim" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title">Quem Sou Eu</h2>
+      <p class="lead text-justify">
+        Olá Mundo, meu nome é Gilvan! Profissional com 14 anos de experiência na área de vendas e atendimento ao cliente,
+        dos quais 9 foram atuando como empreendedor, no ramo de apresentação e realização de eventos voltados para venda, 
+        e os últimos 5 anos foram atuando como vendedor no varejo e no setor tecnológico em regime CLT no Estado do Amazonas. 
+        Nessa caminha, fui abençoado por conhecer pessoas incríveis que me deram oportunidades e transmitiram conhecimentos valiosos!
+        Trabalhei em empresas de destaque, utilizando sistemas CRM para cadastro, 
+        acompanhamento e comunicação com clientes, apresentação de produtos, pós-venda e seguros. Sou extremamente grato a todas as empresas
+        por onde passei pois essa experiências me permitiram desenvolver habilidades essenciais, como:
+      </p>
+
+      <!-- Accordion -->
+      <div class="accordion" id="sobreMimAccordion">
+        <!-- Habilidades Adquiridas -->
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h3 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Habilidades Adquiridas
+              </button>
+            </h3>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#sobreMimAccordion">
+            <div class="card-body">
+              <ul class="list-unstyled">
+                <li class="mb-3"><i class="fas fa-check-circle text-success mr-2"></i>Empatia, resiliência, comunicação assertiva, sustentabilidade e aprendizado contínuo.</li>
+                <li class="mb-3"><i class="fas fa-check-circle text-success mr-2"></i>Escuta ativa para resolução de conflitos e foco na satisfação do cliente.</li>
+                <li class="mb-3"><i class="fas fa-check-circle text-success mr-2"></i>Proatividade, trabalho em equipe, integridade, transmissão de conhecimentos.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Conhecimentos Técnicos em Vendas -->
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h3 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Conhecimentos Técnicos em Vendas
+              </button>
+            </h3>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#sobreMimAccordion">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="list-unstyled">
+                    <li class="mb-3"><i class="fas fa-check-circle text-success mr-2"></i>Experiência: Atendimento ao cliente, resolução de problemas e pós-venda.</li>
+                    <li class="mb-3"><i class="fas fa-check-circle text-success mr-2"></i>Vendas: Técnicas de persuasão, gatilhos mentais, copywriting e análise de comportamento.</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-unstyled">
+                    <li class="mb-3"><i class="fas fa-check-circle text-success mr-2"></i>Prospecção: Captação de clientes via WhatsApp, CRM e redes sociais.</li>
+                    <li class="mb-3"><i class="fas fa-check-circle text-success mr-2"></i>Ferramentas: Uso de sistemas de vendas e CRM para gestão de clientes.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Conhecimentos Técnicos em TI -->
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h3 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Conhecimentos Técnicos em TI
+              </button>
+            </h3>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#sobreMimAccordion">
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">Área</th>
+                      <th scope="col">Conhecimentos</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Linguagens</td>
+                      <td>Java, JavaScript, HTML, CSS</td>
+                    </tr>
+                    <tr>
+                      <td>Metodologias</td>
+                      <td>Scrum, Kanban, Gerenciamento de Projetos</td>
+                    </tr>
+                    <tr>
+                      <td>Ferramentas</td>
+                      <td>Git e GitHub, Redes, Hardware, Software</td>
+                    </tr>
+                    <tr>
+                      <td>Interesses</td>
+                      <td>Power BI, Python, SQL, Azure, Análise de Documentação</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Seção Avaliações de Clientes -->
+  <section id="avaliacoes" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title">Avaliações</h2>
+      <!-- Cards de avaliações -->
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="/img/1.3.png" class="img-fluid img-hover img-bordered" alt="Avaliação 1">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="/img/2.png" class="img-fluid img-hover img-bordered" alt="Avaliação 2">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="/img/3.png" class="img-fluid img-hover img-bordered" alt="Avaliação 3">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="/img/4.png" class="img-fluid img-hover img-bordered" alt="Avaliação 4">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="/img/5.png" class="img-fluid img-hover img-bordered" alt="Avaliação 5">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="/img/6.png" class="img-fluid img-hover img-bordered" alt="Avaliação 6">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="/img/7.png" class="img-fluid img-hover img-bordered" alt="Avaliação 7">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <img src="/img/8.png" class="img-fluid img-hover img-bordered" alt="Avaliação 8">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Botão "Ver mais avaliações" -->
+      <div class="text-center mt-4">
+        <a href="https://g.page/r/CXuAV8XvVRuNEAE/review" target="_blank" class="btn btn-success text-white">
+          Ver mais avaliações
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Seção de Contatos -->
+<section id="contatos" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title">Contatos</h2>
+    <p class="text-center">Se você quiser entrar em contato comigo, sinta-se à vontade para usar um dos métodos abaixo:</p>
+
+    <!-- Grade de ícones -->
+    <div class="row justify-content-center">
+      <!-- YouTube -->
+      <div class="col-md-3 col-sm-4 col-6 mb-4 text-center">
+        <a href="https://youtu.be/poZN4tojISA?si=3bosYLoWpvBY-dlw" target="_blank" class="text-decoration-none">
+          <i class="bi bi-youtube fa-2x d-block mb-2"></i>
+          <span>YouTube</span>
+        </a>
+      </div>
+
+      <!-- LinkedIn -->
+      <div class="col-md-3 col-sm-4 col-6 mb-4 text-center">
+        <a href="https://www.linkedin.com/in/gilvan-daniel-da-silva-b52637114/" target="_blank" class="text-decoration-none">
+          <i class="bi bi-linkedin fa-2x d-block mb-2"></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+
+      <!-- GitHub -->
+      <div class="col-md-3 col-sm-4 col-6 mb-4 text-center">
+        <a href="https://github.com/Shadowtutor" target="_blank" class="text-decoration-none">
+          <i class="bi bi-github fa-2x d-block mb-2"></i>
+          <span>GitHub</span>
+        </a>
+      </div>
+
+      <!-- WhatsApp -->
+      <div class="col-md-3 col-sm-4 col-6 mb-4 text-center">
+        <a href="https://wa.me/message/FRVFVIUBESLVD1" target="_blank" class="text-decoration-none">
+          <i class="bi bi-whatsapp fa-2x d-block mb-2"></i>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+
+      <!-- InfoJobs -->
+      <div class="col-md-3 col-sm-4 col-6 mb-4 text-center">
+        <a href="https://www.infojobs.com.br/Candidate/CV/" target="_blank" class="text-decoration-none">
+          <i class="bi bi-briefcase-fill fa-2x d-block mb-2"></i>
+          <span>InfoJobs</span>
+        </a>
+      </div>
+
+      <!-- Gupy -->
+      <div class="col-md-3 col-sm-4 col-6 mb-4 text-center">
+        <a href="https://login.gupy.io/candidates/curriculum" target="_blank" class="text-decoration-none">
+          <i class="bi bi-building fa-2x d-block mb-2"></i>
+          <span>Gupy</span>
+        </a>
+      </div>
+
+      <!-- Pandape -->
+      <div class="col-md-3 col-sm-4 col-6 mb-4 text-center">
+        <a href="https://www.infojobs.com.br/Candidate/CV/" target="_blank" class="text-decoration-none">
+          <i class="bi bi-people-fill fa-2x d-block mb-2"></i>
+          <span>Pandape</span>
+        </a>
+      </div>
+
+      <!-- Solides -->
+      <div class="col-md-3 col-sm-4 col-6 mb-4 text-center">
+        <a href="https://solides-jobs-staging.s3.us-east-1.amazonaws.com/shared/profilers/PA.png" target="_blank" class="text-decoration-none">
+          <i class="bi bi-person-badge-fill fa-2x d-block mb-2"></i>
+          <span>Solides</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="fale-conosco" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title">Fale Conosco</h2>
+    <p class="text-center">Envie sua mensagem e entraremos em contato o mais breve possível.</p>
+
+    <form id="contact-form" action="https://formspree.io/f/xrbpgngg" method="POST" class="mt-4">
+      <div class="form-group">
+        <input type="text" name="name" class="form-control" placeholder="Seu nome" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" class="form-control" placeholder="Seu e-mail" required>
+      </div>
+      <div class="form-group">
+        <textarea name="message" class="form-control" rows="5" placeholder="Sua mensagem" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+    </form>
+
+    <!-- Mensagem de sucesso -->
+    <div id="success-message" class="alert alert-success mt-3" style="display: none;">
+      Mensagem enviada com sucesso!
+    </div>
+
+    <!-- Mensagem de erro -->
+    <div id="error-message" class="alert alert-danger mt-3" style="display: none;">
+      Ocorreu um erro ao enviar a mensagem. Tente novamente.
+    </div>
+  </div>
+</section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-3 mt-4">
+    <p>&copy; 2023 Gilvan Daniel da Silva. Todos os direitos reservados.</p>
+  </footer>
+
+
+
+  <!-- JavaScript (Opcional) -->
+   <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
