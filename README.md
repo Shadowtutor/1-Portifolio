@@ -12,4 +12,4 @@ Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre mim, meu
 Acesse o site:
 https://github.com/Shadowtutor/1-Portifolio
 ou
-...
+https://shadowtutor.github.io/1-Portifolio/
